@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মোমিন হোসেন — সাইবার সিকিউরিটি এক্সপার্ট</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">MH_SEC</div>
+        <nav>
+            <a href="#about">বায়োডাটা</a>
+            <a href="#skills">দক্ষতা</a>
+            <a href="#contact">যোগাযোগ</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Slideshow Section -->
+        <section class="slideshow-container">
+            <div class="slide fade active">
+                <div class="slide-content">
+                    <h1>মোমিন হোসেন</h1>
+                    <p>সাইবার সিকিউরিটি এবং ইথিকাল হ্যাকিং এক্সপার্ট</p>
+                    <a href="#about" class="btn">আমার সম্পর্কে জানুন</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="slide-content">
+                    <h1>ডিজিটাল সিকিউরিটি ও পেনেট্রেশন টেস্টিং</h1>
+                    <p>আপনার সিস্টেমকে সুরক্ষিত রাখুন সব ধরনের সাইবার হুমকি থেকে।</p>
+                    <a href="#contact" class="btn">পরামর্শ নিন</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="slide-content">
+                    <h1>অ্যাডভান্সড প্রটেকশন</h1>
+                    <p>সঠিক ইথিকাল হ্যাকিংয়ের মাধ্যমে দুর্বলতা চিহ্নিতকরণ ও সমাধান।</p>
+                    <a href="#skills" class="btn">দক্ষতা সমূহ</a>
+                </div>
+            </div>
+            <div class="slide-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <!-- About / Biodata Section -->
+        <section id="about" class="section">
+            <h2>বায়োডাটা</h2>
+            <div class="card bio-card">
+                <div class="bio-avatar">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 7.54 16.6l-1.08-1.22A8 8 0 1 0 12 20v2a10 10 0 0 1 0-20z"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <div class="bio-info">
+                    <h3>মোমিন হোসেন</h3>
+                    <p class="role">সাইবার সিকিউরিটি এবং ইথিকাল হ্যাকিং এক্সপার্ট</p>
+                    <p class="bio-desc">আমি একজন প্রফেশনাল সাইবার সিকিউরিটি স্পেশালিস্ট ও ইথিকাল হ্যাকার। ডিজিটাল সিস্টেম, নেটওয়ার্ক এবং ওয়েব অ্যাপ্লিকেশনের নিরাপত্তা নিশ্চিতকরণ এবং দুর্বলতা দূরীকরণে আমার দীর্ঘ অভিজ্ঞতা রয়েছে।</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>দক্ষতা ও অভিজ্ঞতা</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>পেনেট্রেশন টেস্টিং</h3>
+                    <p>ওয়েব ও নেটওয়ার্ক সিস্টেমের দুর্বলতা খুঁজে বের করা।</p>
+                </div>
+                <div class="skill-card">
+                    <h3>নেটওয়ার্ক সিকিউরিটি</h3>
+                    <p>ফায়ারওয়াল ও এনক্রিপশন সেটআপ এবং মনিটরিং।</p>
+                </div>
+                <div class="skill-card">
+                    <h3>ম্যালওয়্যার অ্যানালাইসিস</h3>
+                    <p>ক্ষতিকর কোড বা ভাইরাস শনাক্ত ও প্রতিকার।</p>
+                </div>
+                <div class="skill-card">
+                    <h3>ইথিকাল হ্যাকিং</h3>
+                    <p>অনুমতি সাপেক্ষে সিস্টেমে অনুপ্রবেশ করে নিরাপত্তা যাচাই।</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>যোগাযোগ করুন</h2>
+            <div class="card contact-card">
+                <p>যেকোনো সিকিউরিটি কনসালটেন্সি বা প্রজেক্টের জন্য যোগাযোগ করতে পারেন।</p>
+                <div class="contact-info">
+                    <p>📧 ইমেইল: momin.security@example.com</p>
+                    <p>📞 ফোন: +৮৮০ ১৭১২-৩৪৫৬৭৮</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ২০২৪ মোমিন হোসেন। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
